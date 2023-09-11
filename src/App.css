@@ -1,0 +1,52 @@
+header {
+  text-align: center;
+}
+
+.page {
+  width: 100%;
+}
+
+.form-Content {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.movies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px
+}
+
+.movie {
+  text-align: center;
+  padding: 5px;
+}
+
+.movie h3 {
+  margin: 0;
+  padding: 0;
+
+}
+
+.movie p {
+  margin: 0;
+  padding: 0;
+
+}
+
+.movie img {
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+
+}
